@@ -1522,7 +1522,12 @@ input, select, textarea {
 
 		.image.centered {
 			display: block;
-			margin: 0 0 2em 0;
+			width: auto;
+			max-width: 25%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0;
+			margin-bottom: 0;
 		}
 
 			.image.centered img {
@@ -2572,6 +2577,10 @@ input, select, textarea {
 
 			.image.featured {
 				margin: 0 0 1.5em 0;
+			}
+
+			.image.centered {
+				max-width: 35%;
 			}
 
 			.image.left {
